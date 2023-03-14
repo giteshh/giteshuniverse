@@ -1,0 +1,62 @@
+nav {
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  height: 30px;
+  line-height: 28px;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  font-weight: 400;
+  border-radius: 3px;
+  transition: 0.3s;
+  margin: 15px 5px;
+  box-shadow: 0 1px 1px black;
+}
+
+.button:hover {
+  //background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* BUTTON UP */
+.label-up {
+  display: block;
+  margin: 0 30px;
+  height: 100%;
+  position: relative;
+  top: 0;
+  transition: 0.3s;
+}
+
+.button:hover .label-up {
+  top: -100%;
+}
+
+/* BUTTON DOWN */
+.label-down {
+  display: block;
+  margin: 0 30px;
+  height: 100%;
+  position: relative;
+  top: -100%;
+  transition: 0.3s;
+}
+
+.button:hover .label-down {
+  top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    float: right;
+  }
+  ul {
+    float: right;
+  }
+}
