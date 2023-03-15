@@ -2,18 +2,34 @@
   color: white;
   width: 100%;
 }
-#img-container{
+
+#img-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
+
 .user-img {
-  width: 30%;
-  height: 550px;
-  position: fixed;
-  bottom: 0;
+  width: 60%;
+  height: 520px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0 0 0 550px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
 }
 
 #descriptionSection {
@@ -42,16 +58,16 @@
 }
 
 .fontawesomeIcon {
-  font-size: 50px;
+  font-size: 45px;
   width: 10%;
-  -webkit-text-stroke: 0.3px white;
+  -webkit-text-stroke: 0.4px white;
   color: transparent;
 }
 
 .vertical-line {
   width: 0.5px;
   height: 60px;
-  background-color: rgba(240,240,240,0.5);
+  background-color: rgba(240, 240, 240, 0.5);
   margin: 0 10px;
 }
 
@@ -68,13 +84,6 @@ h3 {
 p {
   margin-bottom: 0;
 }
-
-.contact-container {
-  display: flex;
-  width: 300px;
-  padding-left: 30px;
-}
-
 
 #last-card {
   margin-top: 20px;
