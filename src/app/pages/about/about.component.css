@@ -2,21 +2,57 @@
   color: white;
   width: 100%;
 }
-
+#img-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .user-img {
-  margin-left: 90px;
-  width: 75%;
-  height: 620px;
+  width: 70%;
+  height: 550px;
   border-radius: 2%;
+  margin-bottom: 25px;
+}
+
+#descriptionSection {
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+.card-container {
+  display: flex;
 }
 
 .experience-card {
-  display: inline-block;
-  width: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 330px;
   color: white;
   box-shadow: 0 1px 1px black;
   margin-right: 20px;
   border-radius: 5px;
+  padding: 10px;
+}
+
+.card-left {
+  width: 30%;
+}
+
+.fontawesomeIcon {
+  font-size: 50px;
+  width: 10%;
+  -webkit-text-stroke: 0.3px white;
+  color: transparent;
+}
+
+.vertical-line {
+  width: 0.5px;
+  height: 60px;
+  background-color: rgba(240,240,240,0.5);
+  margin: 0 10px;
 }
 
 .card-subtitle {
@@ -39,13 +75,11 @@ p {
   padding-left: 30px;
 }
 
-#descriptionSection {
-  max-height: 80vh;
-  overflow-y: scroll;
-}
+
 #last-card {
   margin-top: 20px;
 }
+
 @media only screen and (max-width: 600px) {
   .user-img {
     margin-left: 15px;
