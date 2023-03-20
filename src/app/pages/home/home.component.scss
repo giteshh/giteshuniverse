@@ -40,7 +40,7 @@
   top: 30%;
   left: 65%;
   width: 350px;
-  animation: ast 100s infinite linear alternate;
+  animation: ast 50s infinite linear alternate;
 }
 
 @keyframes ast {
@@ -54,13 +54,14 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    padding: 0 40px;
   }
   .title {
-    padding: 100px 30px;
+    padding: 0;
 
     h1 {
       color: #fff;
-      font-size: 30px;
+      font-size: 29px;
       font-weight: bold;
     }
 
@@ -79,15 +80,15 @@
   /*astronaut css*/
   .ast {
     position: absolute;
-    top: 60%;
-    left: 30%;
-    width: 200px;
-    animation: ast 100s infinite linear alternate;
+    top: 65%;
+    left: 45%;
+    width: 160px;
+    animation: ast 50s infinite linear alternate;
   }
 
   @keyframes ast {
     to {
-      transform: translate(-50px, -50px) rotate(1turn);
+      transform: translate(-150px, -150px) rotate(0.5turn);
     }
   }
 }

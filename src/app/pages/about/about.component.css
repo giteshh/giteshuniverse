@@ -98,12 +98,35 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+  .row {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90vh;
+    max-height: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
   .user-img {
     margin-left: 15px;
-    width: 100%;
-    height: 450px;
+    width: 70%;
+    height: 300px;
     border-radius: 2%;
-    overflow-y: scroll;
+  }
+
+  .horizontal-line {
+    width: 100%;
+    height: 1px;
+  }
+
+  #descriptionSection {
+    max-height: max-content;
+    overflow: hidden;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .experience-card {
@@ -130,8 +153,4 @@ p {
     margin-left: 15px;
   }
 
-  #descriptionSection {
-    height: 100vh;
-    overflow-x: hidden;
-  }
 }
