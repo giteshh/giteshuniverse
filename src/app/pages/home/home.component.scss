@@ -11,26 +11,23 @@
 /*css for name*/
 .title {
   padding: 100px 0;
+  color: #fff;
 
   h1 {
-    color: #fff;
     font-size: 65px;
     position: relative;
     font-weight: bold;
   }
 
   h4 {
-    color: #fff;
     opacity: 0.9;
     font-size: 30px;
-    text-shadow: 5px 3px #4E4D50;
   }
 }
 
 .title-span {
   font-size: 25px;
   font-weight: lighter;
-  color: white;
   opacity: 0.5;
 }
 
@@ -60,21 +57,16 @@
     padding: 0;
 
     h1 {
-      color: #fff;
       font-size: 29px;
-      font-weight: bold;
     }
 
     h4 {
-      color: #fff;
       font-size: 16px;
       position: relative;
     }
 
     .title-span {
       font-size: 15px;
-      font-weight: lighter;
-      color: silver;
     }
   }
   /*astronaut css*/
