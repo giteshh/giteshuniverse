@@ -46,7 +46,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .flex-container {
     display: flex;
     justify-content: space-around;
@@ -72,9 +72,9 @@
   /*astronaut css*/
   .ast {
     position: absolute;
-    top: 65%;
-    left: 45%;
-    width: 160px;
+    top: 55%;
+    left: 35%;
+    width: 200px;
     animation: ast 50s infinite linear alternate;
   }
 
@@ -83,4 +83,21 @@
       transform: translate(-150px, -150px) rotate(0.5turn);
     }
   }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1250px) {
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0 40px;
+  }
+  .ast {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    width: 260px;
+    animation: ast 50s infinite linear alternate;
+  }
+
 }
