@@ -24,30 +24,34 @@ h2 {
 }
 
 #box-3 {
-  background-image: url("../../../assets/images/cocktailclub.webp");
+  background-image: url("../../../assets/images/scribe.png");
 }
 
 #box-4 {
-  background-image: url("../../../assets/images/kanban.webp");
+  background-image: url("../../../assets/images/cocktailclub.webp");
 }
 
 #box-5 {
-  background-image: url("../../../assets/images/tictactoe.webp");
+  background-image: url("../../../assets/images/kanban.webp");
 }
 
 #box-6 {
-  background-image: url("../../../assets/images/antibass.webp");
+  background-image: url("../../../assets/images/tictactoe.webp");
 }
 
 #box-7 {
-  background-image: url("../../../assets/images/bmicalc.webp");
+  background-image: url("../../../assets/images/antibass.webp");
 }
 
 #box-8 {
-  background-image: url("../../../assets/images/tempconv.webp");
+  background-image: url("../../../assets/images/bmicalc.webp");
 }
 
 #box-9 {
+  background-image: url("../../../assets/images/tempconv.webp");
+}
+
+#box-10 {
   background-image: url("../../../assets/images/ddd.webp");
 }
 
