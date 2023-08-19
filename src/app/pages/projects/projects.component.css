@@ -4,6 +4,13 @@
   position: relative;
 }
 
+h1 {
+  position: relative;
+  color: white;
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+
 p {
   color: #fff;
 }
