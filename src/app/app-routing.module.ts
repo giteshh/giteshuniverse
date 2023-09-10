@@ -6,6 +6,7 @@ import {BackgroundComponent} from "./pages/background/background.component";
 import {SkillsComponent} from "./pages/skills/skills.component";
 import {NavbarComponent} from "./pages/navbar/navbar.component";
 import {AboutComponent} from "./pages/about/about.component";
+import {PageNotFoundComponent} from "./pages/page-not-found/page-not-found.component";
 
 const routes: Routes = [
   {path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'skills', component: SkillsComponent},
   {path: 'bg', component: BackgroundComponent},
   {path: 'about', component: AboutComponent},
+  {path: '**', component: PageNotFoundComponent},
 ];
 
 @NgModule({

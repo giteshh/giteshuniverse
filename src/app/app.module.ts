@@ -10,6 +10,7 @@ import {BackgroundComponent} from './pages/background/background.component';
 import {SkillsComponent} from './pages/skills/skills.component';
 import {NavbarComponent} from './pages/navbar/navbar.component';
 import { AboutComponent } from './pages/about/about.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutComponent } from './pages/about/about.component';
     BackgroundComponent,
     SkillsComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
