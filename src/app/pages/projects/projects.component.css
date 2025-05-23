@@ -66,6 +66,14 @@ h2 {
   background-image: url("../../../assets/images/mportal.png");
 }
 
+#box-12 {
+  background-image: url("../../../assets/images/bntecpackautomation.png");
+}
+
+#box-13 {
+  background-image: url("../../../assets/images/coredensity.png");
+}
+
 .item .box {
   text-align: center;
   background-repeat: no-repeat;
